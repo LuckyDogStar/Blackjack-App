@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#7CB342"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="284dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="186dp"
+                android:orientation="horizontal"
+                tools:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/pc1"
+                    android:layout_width="125dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="false"
+                    android:contentDescription="@string/CardDescription"
+                    android:scaleType="centerInside"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ac"
+                    tools:src="@drawable/ac"
+                    tools:srcCompat="@drawable/ac" />
+
+                <ImageView
+                    android:id="@+id/pc2"
+                    android:layout_width="125dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/CardDescription"
+                    android:scaleType="centerInside"
+                    android:visibility="invisible"
+                    tools:src="@tools:sample/avatars" />
+
+                <ImageView
+                    android:id="@+id/pc3"
+                    android:layout_width="125dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/CardDescription"
+                    android:scaleType="centerInside"
+                    android:visibility="invisible"
+                    tools:src="@tools:sample/avatars" />
+
+                <ImageView
+                    android:id="@+id/pc4"
+                    android:layout_width="125dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/CardDescription"
+                    android:scaleType="centerInside"
+                    android:visibility="invisible"
+                    tools:src="@tools:sample/avatars" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="168dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/dc1"
+                    android:layout_width="125dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="false"
+                    android:contentDescription="@string/CardDescription"
+                    android:scaleType="centerInside"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ac" />
+
+                <ImageView
+                    android:id="@+id/dc2"
+                    android:layout_width="125dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="false"
+                    android:contentDescription="@string/CardDescription"
+                    android:scaleType="centerInside"
+                    android:visibility="invisible"
+                    tools:src="@tools:sample/avatars" />
+
+                <ImageView
+                    android:id="@+id/dc3"
+                    android:layout_width="125dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/CardDescription"
+                    android:scaleType="centerInside"
+                    android:visibility="invisible"
+                    tools:src="@tools:sample/avatars" />
+
+                <ImageView
+                    android:id="@+id/dc4"
+                    android:layout_width="125dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/CardDescription"
+                    android:scaleType="centerInside"
+                    android:visibility="invisible"
+                    tools:src="@tools:sample/avatars" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="298dp"
+            android:layout_height="match_parent"
+            android:background="#7CB342"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/poolView"
+                    style="@style/Widget.AppCompat.TextView"
+                    android:layout_width="31dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:gravity="center"
+                    android:text="@string/Pool"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/handsWonView"
+                    android:layout_width="22dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:gravity="center"
+                    android:text="@string/HandsWon"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="79dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:gravity="right|left"
+                    android:text="Player" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:gravity="center|start"
+                    android:text="House" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="26dp" />
+
+            <LinearLayout
+                android:layout_width="328dp"
+                android:layout_height="68dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button25"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/buttonbet25"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    app:backgroundTint="#1E88E5" />
+
+                <Button
+                    android:id="@+id/button50"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/buttonbet50"
+                    android:textColor="#FFFFFF"
+                    app:backgroundTint="#43A047" />
+
+                <Button
+                    android:id="@+id/button100"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/buttonbet100"
+                    android:textColor="#FFFFFF"
+                    app:backgroundTint="#5E35B1" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonHit"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:text="@string/Hit"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/buttonStand"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:text="@string/Stand"
+                android:textColor="#FFFFFF"
+                app:backgroundTint="#00ACC1" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
